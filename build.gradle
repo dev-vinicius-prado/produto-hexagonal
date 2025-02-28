@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.merlin.backen-eficiente'
+group = 'com.merlin.backend-eficiente'
 version = '1.0-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -15,6 +15,13 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-cache'
     implementation 'redis.clients:jedis:4.3.1'
     runtimeOnly 'org.postgresql:postgresql'
+
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:5.8.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
 }
 
 repositories {
