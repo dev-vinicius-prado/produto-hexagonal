@@ -2,13 +2,14 @@ package com.merlin.backendefienciente.application.produto;
 
 import com.merlin.backendefienciente.domain.produto.Produto;
 import com.merlin.backendefienciente.domain.produto.ProdutoRepository;
+import com.merlin.backendefienciente.infrastructure.produto.ProdutoJpaRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CadastrarProduto {
-    private final ProdutoRepository produtoRepository;
+    private final ProdutoJpaRepository produtoRepository;
 
-    public CadastrarProduto(ProdutoRepository produtoRepository) {
+    public CadastrarProduto(ProdutoJpaRepository produtoRepository) {
         this.produtoRepository = produtoRepository;
     }
 
