@@ -1,7 +1,7 @@
-package com.merlin.backendefienciente.infrastructure;
+package com.merlin.backendefienciente.infrastructure.produto;
 
-import com.merlin.backendefienciente.application.CadastrarProduto;
-import com.merlin.backendefienciente.domain.Produto;
+import com.merlin.backendefienciente.application.produto.CadastrarProduto;
+import com.merlin.backendefienciente.domain.produto.Produto;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

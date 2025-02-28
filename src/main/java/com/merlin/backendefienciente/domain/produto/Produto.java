@@ -1,4 +1,4 @@
-package com.merlin.backendefienciente.domain;
+package com.merlin.backendefienciente.domain.produto;
 
 import jakarta.persistence.*;
 
@@ -19,7 +19,8 @@ public class Produto {
         this.preco = preco;
     }
 
-    public Produto() { }
+    public Produto() {
+    }
 
     public Long getId() {
         return id;

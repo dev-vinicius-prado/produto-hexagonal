@@ -1,7 +1,7 @@
-package com.merlin.backendefienciente.application;
+package com.merlin.backendefienciente.application.produto;
 
-import com.merlin.backendefienciente.domain.Produto;
-import com.merlin.backendefienciente.domain.ProdutoRepository;
+import com.merlin.backendefienciente.domain.produto.Produto;
+import com.merlin.backendefienciente.domain.produto.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 @Service
