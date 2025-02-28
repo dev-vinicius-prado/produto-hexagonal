@@ -5,6 +5,8 @@ import com.merlin.backendefienciente.domain.produto.ProdutoRepository;
 import com.merlin.backendefienciente.infrastructure.produto.ProdutoJpaRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CadastrarProduto {
     private final ProdutoJpaRepository produtoRepository;
@@ -19,5 +21,9 @@ public class CadastrarProduto {
 
     public ProdutoRepository getProdutoRepository() {
         return produtoRepository;
+    }
+
+    public List<Produto> listarTodos() {
+        return produtoRepository.listarTodos();
     }
 }

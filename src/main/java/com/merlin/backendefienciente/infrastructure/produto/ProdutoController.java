@@ -22,6 +22,6 @@ public class ProdutoController {
 
     @GetMapping
     public List<Produto> listar(){
-        return cadastrarProduto.getProdutoRepository().listarTodos();
+        return cadastrarProduto.listarTodos();
     }
 }

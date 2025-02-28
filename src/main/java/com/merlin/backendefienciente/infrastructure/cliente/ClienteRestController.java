@@ -22,12 +22,12 @@ public class ClienteRestController {
 
     @GetMapping
     public List<Cliente> listarTodos() {
-        return cadastrarCliente.getClienteRepository().listarTodos();
+        return cadastrarCliente.listarTodos();
     }
 
     @GetMapping("/{cpf}")
     public Cliente buscarPorCpf(@PathVariable String cpf) {
-        return cadastrarCliente.getClienteRepository().buscarPorCpf(cpf);
+        return cadastrarCliente.buscarPorCpf(cpf);
     }
 
 }
