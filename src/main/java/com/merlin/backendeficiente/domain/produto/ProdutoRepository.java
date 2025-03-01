@@ -1,4 +1,4 @@
-package com.merlin.backendefienciente.domain.produto;
+package com.merlin.backendeficiente.domain.produto;
 
 import java.util.List;
 

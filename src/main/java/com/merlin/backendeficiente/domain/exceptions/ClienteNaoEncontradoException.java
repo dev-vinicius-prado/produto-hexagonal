@@ -1,4 +1,4 @@
-package com.merlin.backendefienciente.domain.exceptions;
+package com.merlin.backendeficiente.domain.exceptions;
 
 import org.springframework.stereotype.Component;
 

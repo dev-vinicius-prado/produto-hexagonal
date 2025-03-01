@@ -1,7 +1,7 @@
-package com.merlin.backendefienciente.infrastructure.produto;
+package com.merlin.backendeficiente.infrastructure.produto;
 
-import com.merlin.backendefienciente.domain.produto.Produto;
-import com.merlin.backendefienciente.domain.produto.ProdutoRepository;
+import com.merlin.backendeficiente.domain.produto.Produto;
+import com.merlin.backendeficiente.domain.produto.ProdutoRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

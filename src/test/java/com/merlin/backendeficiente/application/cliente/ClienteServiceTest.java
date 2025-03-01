@@ -1,8 +1,8 @@
-package com.merlin.backendefienciente.application.cliente;
+package com.merlin.backendeficiente.application.cliente;
 
-import com.merlin.backendefienciente.domain.cliente.Cliente;
-import com.merlin.backendefienciente.domain.cliente.ClienteRepository;
-import com.merlin.backendefienciente.domain.exceptions.ClienteNaoEncontradoException;
+import com.merlin.backendeficiente.domain.cliente.Cliente;
+import com.merlin.backendeficiente.domain.cliente.ClienteRepository;
+import com.merlin.backendeficiente.domain.exceptions.ClienteNaoEncontradoException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,7 +1,7 @@
-package com.merlin.backendefienciente.infrastructure.cliente;
+package com.merlin.backendeficiente.infrastructure.cliente;
 
-import com.merlin.backendefienciente.domain.cliente.Cliente;
-import com.merlin.backendefienciente.domain.cliente.ClienteRepository;
+import com.merlin.backendeficiente.domain.cliente.Cliente;
+import com.merlin.backendeficiente.domain.cliente.ClienteRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

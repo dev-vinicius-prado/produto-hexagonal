@@ -1,4 +1,4 @@
-package com.merlin.backendefienciente;
+package com.merlin.backendeficiente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

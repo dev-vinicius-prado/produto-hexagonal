@@ -1,7 +1,7 @@
-package com.merlin.backendefienciente.infrastructure.cliente;
+package com.merlin.backendeficiente.infrastructure.cliente;
 
-import com.merlin.backendefienciente.application.cliente.CadastrarCliente;
-import com.merlin.backendefienciente.domain.cliente.Cliente;
+import com.merlin.backendeficiente.application.cliente.CadastrarCliente;
+import com.merlin.backendeficiente.domain.cliente.Cliente;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

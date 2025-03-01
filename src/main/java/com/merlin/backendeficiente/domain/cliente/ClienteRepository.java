@@ -1,4 +1,4 @@
-package com.merlin.backendefienciente.domain.cliente;
+package com.merlin.backendeficiente.domain.cliente;
 
 import java.util.List;
 

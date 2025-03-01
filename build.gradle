@@ -14,7 +14,18 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-cache'
     implementation 'redis.clients:jedis:4.3.1'
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+    implementation 'redis.clients:jedis:4.3.1'
     runtimeOnly 'org.postgresql:postgresql'
+
+    // Testcontainers
+    testImplementation 'org.testcontainers:testcontainers:1.20.4'
+    testImplementation 'org.testcontainers:postgresql:1.20.4'
+    testImplementation 'org.testcontainers:junit-jupiter:1.20.4'
+
+    //Spring-boot-test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 
     // JUnit 5
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
@@ -30,4 +41,6 @@ repositories {
 
 test {
     useJUnitPlatform()
+    systemProperty "os.name", "Windows 11"
 }
+

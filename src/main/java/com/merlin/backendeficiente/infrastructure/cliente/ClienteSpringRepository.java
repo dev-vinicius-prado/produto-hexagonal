@@ -1,6 +1,6 @@
-package com.merlin.backendefienciente.infrastructure.cliente;
+package com.merlin.backendeficiente.infrastructure.cliente;
 
-import com.merlin.backendefienciente.domain.cliente.Cliente;
+import com.merlin.backendeficiente.domain.cliente.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClienteSpringRepository extends JpaRepository<Cliente, Long> {

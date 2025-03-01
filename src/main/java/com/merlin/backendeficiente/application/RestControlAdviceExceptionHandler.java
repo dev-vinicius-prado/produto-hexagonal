@@ -1,6 +1,6 @@
-package com.merlin.backendefienciente.application;
+package com.merlin.backendeficiente.application;
 
-import com.merlin.backendefienciente.domain.exceptions.ClienteNaoEncontradoException;
+import com.merlin.backendeficiente.domain.exceptions.ClienteNaoEncontradoException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
